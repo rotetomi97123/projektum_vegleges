@@ -9,12 +9,12 @@
     
 </head>
 <body>
-    <div id="nav" class="navbar">
+    <div id="nav" id="C1" class="navbar">
         <img src="12345.png" class="logo">
         <ul class="ul">
-            <a href="#">Početna</a>
-            <a href="#">Jelovnik</a>
-            <a href="#">Kontakt</a>
+            <a href="#C1">Početna</a>
+            <a href="#C3">Jelovnik</a>
+            <a href="#C4">Kontakt</a>
         </ul>
         
 
@@ -22,14 +22,14 @@
     </div>
     <div id="mainbox" onclick ="openFunction()">&#9776;</div>
     <div id="menu" class="sidemenu">
-        <a href="#">Početna</a>
-        <a href="#">Jelovnik</a>
-        <a href="#">Kontakt</a>
+        <a href="#C1">Početna</a>
+        <a href="#C3">Jelovnik</a>
+        <a href="#C4">Kontakt</a>
         <a href="#" class="closebtn" onclick="closeFunction()">&times;</a>
 
 
     </div>
-    <div class="container">
+    <div class="container" >
         <div class="opening">
             <div class="logoOP">
                 <img src="logoOP.png">
@@ -92,7 +92,7 @@
        
     </div>
     <div class="p">
-        <h4 class="a">BURGER BAR</h4>
+        <h4 class="a" id="C2">BURGER BAR</h4>
         <h5 class="b">Burger Bar restorani, stvoreni su sa željom da 
             se visoko pozicioniraju u društvu specijalizovanih res
             torana za kraft (zanatske) burgere.</h5>
@@ -113,7 +113,7 @@
         
     </div>
     <div class="menu">
-        <p class="menuTitle">Jelovnik</p>
+        <p class="menuTitle" id="C3">Jelovnik</p>
              <div class="burgerok">
                      <p class="title1"></p>
                       <div id="it" class="it"></div>
@@ -121,7 +121,7 @@
     </div>
     <div id="overlay">
         <form>
-            <h1>Contact Us</h1>
+            <h1 id="C4">Contact Us</h1>
 
             <label for="name">Name:</label>
             <input type="text" id="name" placeholder="Your name">

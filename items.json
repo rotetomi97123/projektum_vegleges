@@ -62,7 +62,8 @@
     "name": "Mexican pizza",
     "description":"cheese,salami,paprika,corn",
     "price": "1000rsd",
-    "available": false
+    "available": false,
+    "button" : "'<button>click</button>'"
     
 },
 {   "id":10,

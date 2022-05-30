@@ -43,7 +43,7 @@ function load() {
             "<li> " + 
             items[i].price + 
             "</li>"+
-            
+            '<button id="btn_menu">Buy</button>' +
             "</ul>" +
             "</div>";
         }
