@@ -344,7 +344,7 @@ input[type="submit"]{
     margin-top: 150px;
     width: 450px;
     max-width: 450px;
-    background: linear-gradient(to right,rgb(255,0,106),rgb(255,67,61));
+    background: linear-gradient(to right,#F8E1B8,rgb(255,67,61));
     color: white;
     font-size: 30px;
     cursor: pointer;
@@ -379,11 +379,12 @@ input[type="submit"]{
     background-color: #F8E1B8;
     display: flex;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     font-size: 70px;
     font-family:'Ubuntu', sans-serif; 
     text-decoration: underline;
     text-decoration-color:rgb(214, 48, 49) ;
+    
 }
 .E1{
     width: 250px;
@@ -399,21 +400,7 @@ input[type="submit"]{
     width: 250px;
     height: 250px;
     padding-left: 100px;
-}
-.E1:hover{
-    width: 260px;
-    height: 260px;
-    padding-right: 90px;
-}
-.E2:hover{
-    width: 260px;
-    height: 260px;
-}
-
-.E3:hover{
-    width: 260px;
-    height: 260px;
-   padding-left: 90px;
+    padding-bottom: 200px;
 }
 .vreme{
     background-color:#F8E1B8 ;
@@ -439,10 +426,21 @@ input[type="submit"]{
 .kontakt:hover{
     font-size: 85px;
     cursor: pointer;
+    transition: 0.5s;
 }
 .radno:hover{
     font-size: 85px;
     cursor: pointer;
+    transition: 0.5s;
+}
+.vege{
+    height: 150px;
+    background: rgb(214, 48, 49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
 }
 
 
