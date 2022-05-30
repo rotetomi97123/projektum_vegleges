@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div id="nav" class="navbar">
+        <img src="12345.png" class="logo">
+        <ul class="ul">
+            <a href="#">Početna</a>
+            <a href="#">Jelovnik</a>
+            <a href="#">Kontakt</a>
+        </ul>
+        
+
+
+    </div>
+    <div id="mainbox" onclick ="openFunction()">&#9776;</div>
+    <div id="menu" class="sidemenu">
+        <a href="#">Početna</a>
+        <a href="#">Jelovnik</a>
+        <a href="#">Kontakt</a>
+        <a href="#" class="closebtn" onclick="closeFunction()">&times;</a>
+
+
+    </div>
+    <div class="container">
+        <div class="opening">
+            <div class="logoOP">
+                <img src="logoOP.png">
+            </div>
+
+            <div class="miniLogo">
+                <img src="miniLogo.png">
+            </div>
+                <div class="title1">
+                    <h1>LJUBAV NA PRVI BURGER</h1>
+                    <h5>Junior|Pileci|Srpski|Premium|Burgeri</h5>
+                 </div>
+                 
+        </div>
+            <div class="slider">
+               
+              <div class="slides">
+                <!--radio buttons start-->
+                
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--radio buttons end-->
+                
+                <!--slide images start-->
+                <div class="slide first" alt="">
+                    <img src="slajder1S.jpg">
+                </div> 
+                <div class="slide" alt="">
+                    <img src="slajder2S.jpg">
+                </div>
+                <div class="slide" alt="">
+                    <img src="slajder3S.jpg">
+                </div>
+                <div class="slide" alt="">
+                    <img src="slajder4S.jpg">
+                </div>
+            
+                <!--slide images end-->
+                <!--automatic navigation start-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+                <!--automatic navigation end-->
+            </div>
+            <!--manual navigation start-->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+            <!--manual navigation end-->
+        </div>
+        <!--image slider end-->
+       
+    </div>
+    <div class="p">
+        <h4 class="a">BURGER BAR</h4>
+        <h5 class="b">Burger Bar restorani, stvoreni su sa željom da 
+            se visoko pozicioniraju u društvu specijalizovanih res
+            torana za kraft (zanatske) burgere.</h5>
+        <h6 class="c">Posvećenost u pripremi, premium sastojci, proverena receptura i
+             višegodišnje iskustvo u ugostiteljstvu, grade osećaj uspeha, koji s
+             vakodnevno delimo sa vama.</h6>
+        <h4 class="d">Burger Bar – Ljubav na prvi burger!</h4>
+    </div>
+    <div class="home">
+        <div class="jel">
+            <h4 class="e"></h1>
+            <h4 class="f"></h1>
+            <h4 class="g"></h1>
+        </div>
+            <img class="home1" src="home1.png">
+            <img class="home2" src="home2.png">
+            <img class="home3" src="home3.png">
+        
+    </div>
+    <div class="menu">
+        <p class="menuTitle">Jelovnik</p>
+             <div class="burgerok">
+                     <p class="title1"></p>
+                      <div id="it" class="it"></div>
+            </div>
+    </div>
+    <div id="overlay">
+        <form>
+            <h1>Contact Us</h1>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your name">
+            <small class="error"></small>
+
+            <label for="email">Email:</label>
+            <input type="text" id="name" placeholder="Your email">
+            <small class="error"></small>
+
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Your message" rows="6"></textarea>
+            <small class="error"></small>
+
+            <div class="center">
+                <input type="submit" value="Send Message">
+                <p id="succes">
+                </p>
+            </div>
+        </form>
+
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

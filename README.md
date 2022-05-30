@@ -1,0 +1,2 @@
+# projektum_vegleges
+ 

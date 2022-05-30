@@ -1,0 +1,533 @@
+/* https://www.sliderrevolution.com/resources/css-image-effects/ */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: sans-serif;
+
+}
+
+#mainbox{
+    font-size: 24px;
+    cursor:pointer;
+    transition: all.6s;
+    visibility: hidden;
+    margin-left: 20px;
+    display: none;
+}
+
+
+.sidemenu{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    height: 100%;
+    width: 0px;
+    background-color: #fdcb6e;
+    z-index: 1;
+    padding-top: 100px;
+    overflow-x: hidden;
+    transition: all.5s;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.sidemenu a{
+text-align: center;
+text-decoration: none;
+font-size: 35px;
+padding-bottom:20px ;
+color: white;
+margin-bottom: 20px;
+}
+.sidemenu a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.sidemenu .closebtn{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 40px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    background: rgb(214, 48, 49);
+    width: 100%;
+    
+
+
+
+    
+}
+
+.navbar ul{
+    margin-top: 37px;
+    text-align: center;
+
+    
+    
+    
+}
+
+.navbar ul a{
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 50px;
+    color: white;
+    font-weight: 50;
+    margin-right: 60px;
+    
+    
+}
+
+.navbar a:hover{
+    color: #ffeaa7;
+    transition: 0.3s;
+}
+
+.logo{
+    width: 150px;
+    margin-left: 300px;
+}
+
+
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title1{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family:  'Ubuntu', sans-serif;
+  color: rgb(214, 48, 49);
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.logoOP{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  
+}
+.miniLogo{
+    visibility: hidden;
+   width:0 ;
+}
+
+.slider{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+   
+
+   
+}
+.slides input{
+   display: none;
+   
+}
+.slide{
+    width: 20%;
+    transition: 2s;
+    
+    
+    
+    
+}
+.slide img{
+    width: 100%;
+    height: 100vh;
+    background-attachment: cover;
+    
+    
+  
+}
+.p{
+    text-align: center;
+    padding-top: 100px;
+    font-family:'Ubuntu', sans-serif; 
+    background-color: #F8E1B8;
+}
+.a{
+    font-size: 100px;
+    text-decoration: underline;
+    text-decoration-color:rgb(214, 48, 49) ;
+}
+.b{
+    padding-top: 40px;
+    font-size: 30px;
+}
+.c{
+    padding-top: 40px;
+    font-size: 30px;
+}
+.d{
+    padding-top: 60px;
+    font-size: 80px;
+    text-decoration: underline;
+    text-decoration-color:rgb(214, 48, 49) ;
+    padding-bottom: 100px;
+}
+.home{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom:100px ;
+    background-color: #F8E1B8;
+
+
+    
+    
+    
+}
+.home img{
+  width: 100%;
+}
+
+
+
+.jel{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+ 
+  margin-top: 125px;
+  font-family:  'Ubuntu', sans-serif;
+  color: rgb(214, 48, 49);
+  font-size: 60px;
+  font-weight: bold;
+  justify-content: flex-start;
+  
+}
+.e{
+    padding-right:400px ;
+    padding-left: 80px;
+}
+.f{
+    padding-right:450px 
+}
+.g{
+    margin-right: 100px;
+}
+.menuTitle{
+    font-size: 100px;
+    font-family:'Ubuntu', sans-serif; 
+    text-align: center;
+    background-color: #F8E1B8;
+    text-decoration: underline;
+    text-decoration-color:rgb(214, 48, 49) ;
+    padding-bottom: 100px;
+}
+#it{
+    font-size: 40px;
+    display: flex;
+    padding-left: 100px;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 70px;
+    column-gap: 200px;
+    text-decoration: none;
+    padding-bottom: 100px;
+    order: 0;
+    flex-grow: 1;
+    background-color: #F8E1B8;
+    
+}
+#it ul{
+    padding-left: 0px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+.title1{
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+#it li:hover{
+    color: red;
+    width: 115%;
+    transition: 0.5s;
+    font-size: 41px;
+}#overlay{
+    width: 100%;
+    height: 700px;
+    background-color: #F8E1B8;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+form{
+    max-width: 1220px;
+    width: 90%;
+    background: white;
+
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 60px;
+    margin: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+label{
+    display: block;
+    margin: 20px 0;
+    margin-left: 10px;
+    font-size: 30px;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #D3D3D3;
+}
+input[type="text"]:focus, textarea:focus{
+    border-bottom: 1px solid black;
+}
+textarea::-webkit-scrollbar{
+    width: 4px;
+}
+textarea::-webkit-scrollbar-thumb{
+    background-color: black;
+}
+.center{
+    text-align: center;
+}
+input[type="submit"]{
+    margin-top: 80px;
+    width: 450px;
+    max-width: 450px;
+    background: linear-gradient(to right,rgb(255,0,106),rgb(255,67,61));
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 3px;
+    height: 80px;
+}
+.error{
+    color:red;
+}
+.error-border{
+    border-bottom: 1px solid red;
+}
+#succes{
+    color:#28A745
+}
+
+
+/*css for manual slide navigation*/
+
+.navigation-manual{
+    position: absolute;
+    width: 100%;
+    margin-top: 1214px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 120px;
+}
+.manual-btn:hover{
+    background: black;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+#radio4:checked ~ .first{
+    margin-left: -60%;
+}
+/*css for automatic navigation*/
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 45%;
+}
+.navigation-auto div{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    transition:1s;
+}
+.navigation-auto div:not(:last-child){
+    margin-right:120px ;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: black;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: black;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: black;
+}
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background: black;
+}
+
+@media(max-width:1110px){
+    .title1{
+        font-size: 40px;
+    }
+}
+@media(max-width:768px){
+    #mainbox{
+        visibility: visible;
+        margin-top: -60px;
+        position: absolute;
+        margin-left: 20px;
+        color: white;
+        display: inline-block;
+        width: 40px;
+       
+    }
+    .navbar{
+        visibility: visible;
+    }
+    .navbar ul{
+        visibility: hidden;
+        width: 0%;
+        height: 0%;
+        overflow: hidden;
+        display: none;
+    }
+    .logo{
+        margin: 0 40vw;
+        
+    }
+    .slider{
+     height: 400px;
+    }
+    
+    .slide img{
+        width: 100%;
+        height: 400px;
+        opacity: 1;
+    }
+    .navigation-manual{
+        position: absolute;
+        width: 100%;
+        margin-top: -140px;
+        display: flex;
+        justify-content: center;
+    }
+    .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 360px;
+    }
+    .title1{
+        font-size: 20px;
+        top: 35%;
+    }
+    .logoOP{
+        visibility: hidden;
+        width: 0%;
+        display: none;
+    }
+    .miniLogo{
+        visibility: visible;
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+    }
+    .a{
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .b{
+        font-size: 15px;
+    }
+    .c{
+        font-size: 15px;
+    }
+    .d{
+        padding-top: 40px;
+        font-size: 30px;
+    }
+    .home{
+        flex-direction: column;
+        
+    }
+    .home img{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .jel{
+        flex-direction: column;
+        
+    }
+    .e{
+        padding-right:0px ;
+        padding-left: 0px;
+        margin-top: -140px;
+        padding-bottom: 200px;
+        
+    }
+    .f{
+        padding-right:0px;
+        padding-bottom: 300px;
+    }
+    .g{
+        margin-right: 0px;
+    }
+}

@@ -1,0 +1,116 @@
+[{  "id":1,
+    "picture":"https://www.thespruceeats.com/thmb/Q91g4m7nZMTnaXcP5tiNbEgSYCk=/940x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/indian-style-burger-1957599-hero-01-266103a4bb4e4ee7b5feb4da2d2e99da.jpg",
+    "name": "Burger",
+    "description": "meat",
+    "price": "500rsd",
+    "available": true
+},
+{   "id":2,
+    "picture":"https://nanapizza.com/wp-content/uploads/2021/11/maxresdefault.jpg",
+    "name": "Cheeseburger",
+    "description":"cheese,meat",
+    "price": "600rsd",
+    "available": false
+
+},
+{   "id":3,
+    "picture":"https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/5/8/0/FN_Melissa-DArabian-Burger_s4x3.jpg.rend.hgtvcom.826.620.suffix/1371616351111.jpeg",
+    "name": "Spikovana burger",
+    "description": "meat+mushrooms",
+    "price": "650rsd",
+    "available": true
+},
+{   "id":4,
+    "picture":"https://cdn.navidiku.rs/firme/proizvodgalerija/galerija49051/velike/gurmanska-pljeskavica-250g56878.jpg",
+    "name": "Gurmanska burger",
+    "description":"cheese,meat,bacon",
+    "price": "800rsd",
+    "available": false
+},
+{   "id":5,
+    "picture":"https://images.squarespace-cdn.com/content/v1/5a13708bf14aa1636996f0a0/1511223801252-521N83LZKD9XBWUBSPBZ/Mike%27s+Grande+Burger+Online+Ordering+Food+Image.jpg?format=2500w",
+    "name": "Gradissimo burger",
+    "description": "meat,cheese,bacon,onions",
+    "price": "1000rsd",
+    "available": true
+},
+{   "id":6,
+    "picture":"https://cdn.tasteatlas.com/images/dishes/6b28b438a3b64a7e9fca9081c89f07ff.jpg",
+    "name": "Capriciosa",
+    "description":"cheese,salami",
+    "price": "800rsd",
+    "available": false
+
+},
+{   "id":7,
+    "picture":"https://www.tasteatlas.com/images/dishes/b05a0af72ad845f3a6abe16143d7853a.jpg",
+    "name": "Pepperoni",
+    "description": "cheese,pepperoni",
+    "price": "900rsd",
+    "available": true
+},
+{   "id":8,
+    "picture":"https://img.taste.com.au/EnoUrlY0/taste/2016/11/bacon-cheddar-and-pineapple-pizza-77250-1.jpeg",
+    "name": "Hawai pizza",
+    "description":"cheese,ananas,salami",
+    "price": "1300rsd",
+    "available": false
+    
+},
+{   "id":9,
+    "picture":"https://www.jaindairy.com/wp-content/uploads/2021/01/WhatsApp-Image-2021-01-29-at-20.05.34-6.jpeg",
+    "name": "Mexican pizza",
+    "description":"cheese,salami,paprika,corn",
+    "price": "1000rsd",
+    "available": false
+    
+},
+{   "id":10,
+    "picture":"https://image-api.nosalty.hu/nosalty/images/recipes/6o/SU/pizza-gyros.jpeg?w=640&h=480&fit=crop&s=afca255da1d99fd7085022a363ee2a7f",
+    "name": "Gyros pizza",
+    "description":"cheese,meat,tomato",
+    "price": "1500rsd",
+    "available": false
+    
+},
+{   "id":11,
+    "picture":"https://images.immediate.co.uk/production/volatile/sites/2/2016/04/22774.jpg?quality=90&crop=540px,0px,881px,800px&resize=556,505",
+    "name": "Small Gyros",
+    "description":"meat,fries",
+    "price": "500rsd",
+    "available": false
+    
+},
+{   "id":12,
+    "picture":"https://s1.feelgreece.com/cx/m/0/0/648/93374-viewom.jpg",
+    "name": "Large Gyros",
+    "description":"meat,fries",
+    "price": "800rsd",
+    "available": false
+    
+},
+{   "id":13,
+    "picture":"https://happyfoodcoffee.hu/uploads/happyfoodcoffee-1611667241_1.jpg",
+    "name": "Gyros plate",
+    "description":"meat,fries,vegetables",
+    "price": "1000sd",
+    "available": false
+    
+},
+{   "id":14,
+    "picture":"https://img.taste.com.au/w_-0kcUJ/taste/2016/11/aussie-style-beef-and-salad-tacos-86525-1.jpeg",
+    "name": "Regular Taco",
+    "description":"meat,toppings",
+    "price": "500rsd",
+    "available": false
+    
+},
+{   "id":15,
+    "picture":"https://ss29l1ircsy2uwwzq3e3d2tw-wpengine.netdna-ssl.com/wp-content/uploads/2020/07/image0-4.jpeg",
+    "name": "Large Taco",
+    "description":"meat,toppings",
+    "price": "1500rsd",
+    "available": false
+    
+}
+]
