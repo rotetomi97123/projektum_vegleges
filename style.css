@@ -375,6 +375,76 @@ input[type="submit"]{
     color: #F8E1B8;
     transition: 0.5s;
 }
+.ending{
+    background-color: #F8E1B8;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    font-size: 70px;
+    font-family:'Ubuntu', sans-serif; 
+    text-decoration: underline;
+    text-decoration-color:rgb(214, 48, 49) ;
+}
+.E1{
+    width: 250px;
+    height: 250px;
+    padding-right: 100px;
+}
+.E2{
+    width: 250px;
+    height: 250px;
+    
+}
+.E3{
+    width: 250px;
+    height: 250px;
+    padding-left: 100px;
+}
+.E1:hover{
+    width: 260px;
+    height: 260px;
+    padding-right: 90px;
+}
+.E2:hover{
+    width: 260px;
+    height: 260px;
+}
+
+.E3:hover{
+    width: 260px;
+    height: 260px;
+   padding-left: 90px;
+}
+.vreme{
+    background-color:#F8E1B8 ;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 200px;
+}
+.kontakt{
+    font-size: 80px;
+    font-family:'Ubuntu', sans-serif; 
+    text-decoration: underline;
+    text-decoration-color:rgb(214, 48, 49) ;
+}
+.kontakt2{
+    padding-bottom: 50px;
+}
+.radno{
+    font-size: 80px;
+    font-family:'Ubuntu', sans-serif; 
+    text-decoration: underline;
+    text-decoration-color:rgb(214, 48, 49) ;
+}
+.kontakt:hover{
+    font-size: 85px;
+    cursor: pointer;
+}
+.radno:hover{
+    font-size: 85px;
+    cursor: pointer;
+}
+
 
 /*css for manual slide navigation*/
 
